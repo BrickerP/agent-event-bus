@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-event-bus"
+version = "0.1.0"
+description = "Append-only event bus for AI agents — hash-chained tool/decision log, one-command replay + side-effect audit."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Yupeng Lu" }]
+keywords = ["ai-agents", "event-bus", "audit", "replay", "mcp", "observability"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/BrickerP/agent-event-bus"
+Hire = "https://brickerp.github.io/hire/"
+
+[project.scripts]
+agent-event-bus = "agent_event_bus.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

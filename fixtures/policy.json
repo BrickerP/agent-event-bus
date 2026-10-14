@@ -1,0 +1,23 @@
+{
+  "side_effect_by_type": {
+    "reply": "network",
+    "post": "network",
+    "quote": "network",
+    "like": "network",
+    "lead_scan": "none",
+    "engagement_round": "none",
+    "catchup_check": "none",
+    "morning_brief": "none",
+    "account_snapshot": "identity",
+    "dm_request_delete": "none",
+    "repo_ship": "write"
+  },
+  "default_side_effect": "other",
+  "public_facing_types": ["reply", "post", "quote", "like"],
+  "gates": {
+    "min_events": 50,
+    "require_intact_chain": true,
+    "require_contiguous_seq": true,
+    "require_public_side_effect_if_public_actions": true
+  }
+}

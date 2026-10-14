@@ -1,0 +1,10 @@
+RESULT: PASS
+  bus=our-x-agent-2026-10-14  events=64  chain=intact
+  side_effects: network=37  write=0  exec=0  identity=1  none=26
+  public_actions: reply=8 quote=3 post=1 like=25
+  routines=4  window=2026-10-14T00:03+08 → 18:56+08
+  [ok] hash chain intact (intact)
+  [ok] no orphan events (seq contiguous from 1) (1..64)
+  [ok] public-facing side effects recorded when reply/post/quote/like present (public_actions=37 recorded_side_effects(network+write+exec)=37)
+  [ok] demo day has ≥50 events (64)
+  report -> docs/demo-report.html

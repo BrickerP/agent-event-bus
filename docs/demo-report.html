@@ -1,0 +1,42 @@
+<!doctype html><html><head><meta charset="utf-8">
+<title>agent-event-bus · our-x-agent-2026-10-14</title>
+<style>
+body{font:15px/1.45 -apple-system,Segoe UI,Helvetica,Arial,sans-serif;margin:0;background:#0b1220;color:#e2e8f0}
+.wrap{max-width:960px;margin:0 auto;padding:28px 32px}
+h1{font-size:22px;margin:0 0 4px;color:#f8fafc} .sub{color:#94a3b8;margin:0 0 18px;font-size:13px}
+.cards{display:flex;gap:14px;margin:0 0 18px;flex-wrap:wrap}
+.card{flex:1;min-width:140px;background:#111827;border:1px solid #1f2937;border-radius:12px;padding:14px 16px}
+.card .k{font-size:11px;color:#94a3b8;text-transform:uppercase;letter-spacing:.05em}
+.card .v{font-size:28px;font-weight:700;margin-top:4px}
+.pass{color:#22c55e} .fail{color:#ef4444}
+.bar{display:flex;align-items:center;gap:10px;margin:6px 0}
+.bl{width:90px;font-size:13px;color:#cbd5e1} .bv{height:16px;border-radius:4px;display:inline-block}
+.bn{font-variant-numeric:tabular-nums;font-size:13px;color:#e2e8f0}
+ul.g{list-style:none;padding:0;margin:12px 0 18px} ul.g li{margin:5px 0;font-size:14px}
+li.ok{color:#4ade80} li.bad{color:#f87171}
+.note{background:#1e293b;border-left:4px solid #3b82f6;padding:10px 14px;border-radius:8px;font-size:13px;color:#cbd5e1;margin:0 0 18px}
+table{border-collapse:collapse;width:100%;font-size:13px;background:#111827;border-radius:10px;overflow:hidden}
+th{background:#1e293b;color:#94a3b8;font-weight:600;text-transform:uppercase;font-size:11px;letter-spacing:.04em}
+td,th{padding:8px 10px;border-bottom:1px solid #1f2937;text-align:left}
+td.n{text-align:right;font-variant-numeric:tabular-nums}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;color:#93c5fd}
+.foot{color:#64748b;font-size:12px;margin-top:18px}
+h3{margin:18px 0 8px;font-size:15px;color:#f1f5f9}
+</style></head><body><div class="wrap">
+<h1>agent-event-bus · our-x-agent-2026-10-14</h1>
+<p class="sub">Hash-chained append-only log of what the agent actually did · fixture is our real X-agent day (structure only, no post bodies) · actions_log.jsonl (structure only; no post bodies)</p>
+<div class="cards">
+<div class="card"><div class="k">Result</div><div class="v pass">PASS</div></div>
+<div class="card"><div class="k">Events</div><div class="v">64</div></div>
+<div class="card"><div class="k">Chain</div><div class="v pass">intact</div></div>
+<div class="card"><div class="k">Network SE</div><div class="v">37</div></div>
+</div>
+<p class="note">Lived demo: <b>64</b> events from our own agent day · window <b>2026-10-14T00:03+08 → 2026-10-14T18:56+08</b> · public actions <b>like 25 · post 1 · quote 3 · reply 8</b> · tip <span class="mono">6d25d6576cc711a4…</span></p>
+<ul class="g"><li class="ok">✔ hash chain intact <b>intact</b></li><li class="ok">✔ no orphan events (seq contiguous from 1) <b>1..64</b></li><li class="ok">✔ public-facing side effects recorded when reply/post/quote/like present <b>public_actions=37 recorded_side_effects(network+write+exec)=37</b></li><li class="ok">✔ demo day has ≥50 events <b>64</b></li></ul>
+<h3>Side-effect breakdown</h3>
+<div class="bar"><span class="bl">network</span><span class="bv" style="width:420px;background:#3b82f6"></span><span class="bn">37</span></div><div class="bar"><span class="bl">identity</span><span class="bv" style="width:11px;background:#a855f7"></span><span class="bn">1</span></div><div class="bar"><span class="bl">none</span><span class="bv" style="width:295px;background:#64748b"></span><span class="bn">26</span></div>
+<h3>Per-type counts</h3>
+<table><tr><th>type</th><th>count</th><th>side effect</th></tr><tr><td>like</td><td class="n">25</td><td>network</td></tr><tr><td>catchup_check</td><td class="n">12</td><td>none</td></tr><tr><td>reply</td><td class="n">8</td><td>network</td></tr><tr><td>engagement_round</td><td class="n">6</td><td>none</td></tr><tr><td>lead_scan</td><td class="n">6</td><td>none</td></tr><tr><td>quote</td><td class="n">3</td><td>network</td></tr><tr><td>account_snapshot</td><td class="n">1</td><td>identity</td></tr><tr><td>dm_request_delete</td><td class="n">1</td><td>none</td></tr><tr><td>morning_brief</td><td class="n">1</td><td>none</td></tr><tr><td>post</td><td class="n">1</td><td>network</td></tr></table>
+<p class="sub" style="margin-top:14px">Routines touched: 0·掉线补跑, 1·早报与当日计划, 2·原创发帖, 3·互动</p>
+<p class="foot">Built with agent-event-bus by Yupeng Lu · AI agent &amp; backend engineer · https://brickerp.github.io/hire/</p>
+</div></body></html>

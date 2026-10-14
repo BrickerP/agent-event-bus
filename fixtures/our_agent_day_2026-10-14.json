@@ -1,0 +1,584 @@
+{
+ "name": "our-x-agent-2026-10-14",
+ "source": "actions_log.jsonl (structure only; no post bodies)",
+ "day": "2026-10-14",
+ "events": [
+  {
+   "ts": "2026-10-14T00:03:45+08:00",
+   "type": "catchup_check",
+   "routine": "0·掉线补跑",
+   "slot": null,
+   "note_len": 60,
+   "text_chars": 410,
+   "counts": {
+    "replies": 20,
+    "likes": 30,
+    "follows": 0,
+    "quotes": 1,
+    "posts": 2,
+    "repo_ships": 1
+   }
+  },
+  {
+   "ts": "2026-10-14T08:10:37+08:00",
+   "type": "dm_request_delete",
+   "routine": "1·早报与当日计划",
+   "slot": null
+  },
+  {
+   "ts": "2026-10-14T08:10:37+08:00",
+   "type": "account_snapshot",
+   "routine": "1·早报与当日计划",
+   "slot": null,
+   "note_len": 90
+  },
+  {
+   "ts": "2026-10-14T08:11:04+08:00",
+   "type": "morning_brief",
+   "routine": "1·早报与当日计划",
+   "slot": null
+  },
+  {
+   "ts": "2026-10-14T08:18:13+08:00",
+   "type": "reply",
+   "routine": "3·互动",
+   "slot": "08:10",
+   "note_len": 42,
+   "text_chars": 196,
+   "target_url": "url",
+   "our_url": "url"
+  },
+  {
+   "ts": "2026-10-14T08:19:00+08:00",
+   "type": "reply",
+   "routine": "3·互动",
+   "slot": "08:10",
+   "note_len": 26,
+   "text_chars": 116,
+   "target_url": "url",
+   "our_url": "url"
+  },
+  {
+   "ts": "2026-10-14T08:19:45+08:00",
+   "type": "reply",
+   "routine": "3·互动",
+   "slot": "08:10",
+   "note_len": 26,
+   "text_chars": 122,
+   "target_url": "url",
+   "our_url": "url"
+  },
+  {
+   "ts": "2026-10-14T08:20:01+08:00",
+   "type": "post",
+   "routine": "2·原创发帖",
+   "slot": "8:14 morning post",
+   "text_chars": 288,
+   "target_url": "url",
+   "our_url": "url"
+  },
+  {
+   "ts": "2026-10-14T08:20:20+08:00",
+   "type": "like",
+   "routine": "3·互动",
+   "slot": "08:10",
+   "target_url": "url"
+  },
+  {
+   "ts": "2026-10-14T08:20:50+08:00",
+   "type": "like",
+   "routine": "3·互动",
+   "slot": "08:10",
+   "target_url": "url"
+  },
+  {
+   "ts": "2026-10-14T08:21:20+08:00",
+   "type": "like",
+   "routine": "3·互动",
+   "slot": "08:10",
+   "target_url": "url"
+  },
+  {
+   "ts": "2026-10-14T08:21:50+08:00",
+   "type": "like",
+   "routine": "3·互动",
+   "slot": "08:10",
+   "target_url": "url"
+  },
+  {
+   "ts": "2026-10-14T08:22:30+08:00",
+   "type": "like",
+   "routine": "3·互动",
+   "slot": "08:10",
+   "target_url": "url"
+  },
+  {
+   "ts": "2026-10-14T08:23:30+08:00",
+   "type": "lead_scan",
+   "routine": "3·互动",
+   "slot": "08:10",
+   "text_chars": 199
+  },
+  {
+   "ts": "2026-10-14T08:23:30+08:00",
+   "type": "engagement_round",
+   "routine": "3·互动",
+   "slot": "08:10",
+   "note_len": 22,
+   "counts": {
+    "reply": 3,
+    "like": 5,
+    "follow": 0,
+    "quote": 0,
+    "repost": 0
+   },
+   "caps_after": {
+    "reply": "3/20",
+    "like": "5/30",
+    "follow": "0/10",
+    "quote": "0/3",
+    "repost": "0/3"
+   }
+  },
+  {
+   "ts": "2026-10-14T08:58:00+08:00",
+   "type": "catchup_check",
+   "routine": "0·掉线补跑",
+   "slot": null,
+   "text_chars": 357
+  },
+  {
+   "ts": "2026-10-14T09:50:00+08:00",
+   "type": "catchup_check",
+   "routine": "0·掉线补跑",
+   "slot": null,
+   "text_chars": 210
+  },
+  {
+   "ts": "2026-10-14T10:16:24+08:00",
+   "type": "reply",
+   "routine": "3·互动",
+   "slot": "10:10",
+   "note_len": 71,
+   "text_chars": 253,
+   "target_url": "url",
+   "our_url": "url"
+  },
+  {
+   "ts": "2026-10-14T10:16:56+08:00",
+   "type": "reply",
+   "routine": "3·互动",
+   "slot": "10:10",
+   "note_len": 79,
+   "text_chars": 254,
+   "target_url": "url",
+   "our_url": "url"
+  },
+  {
+   "ts": "2026-10-14T10:17:55+08:00",
+   "type": "quote",
+   "routine": "3·互动",
+   "slot": "10:10",
+   "text_chars": 144,
+   "target_url": "url",
+   "our_url": "url",
+   "handle": "dotey"
+  },
+  {
+   "ts": "2026-10-14T10:18:30+08:00",
+   "type": "like",
+   "routine": "3·互动",
+   "slot": "10:10",
+   "target_url": "url"
+  },
+  {
+   "ts": "2026-10-14T10:19:00+08:00",
+   "type": "like",
+   "routine": "3·互动",
+   "slot": "10:10",
+   "target_url": "url"
+  },
+  {
+   "ts": "2026-10-14T10:19:30+08:00",
+   "type": "like",
+   "routine": "3·互动",
+   "slot": "10:10",
+   "target_url": "url"
+  },
+  {
+   "ts": "2026-10-14T10:20:40+08:00",
+   "type": "like",
+   "routine": "3·互动",
+   "slot": "10:10",
+   "note_len": 71,
+   "target_url": "url"
+  },
+  {
+   "ts": "2026-10-14T10:21:00+08:00",
+   "type": "lead_scan",
+   "routine": "3·互动",
+   "slot": "10:10",
+   "text_chars": 233
+  },
+  {
+   "ts": "2026-10-14T10:21:00+08:00",
+   "type": "engagement_round",
+   "routine": "3·互动",
+   "slot": "10:10",
+   "note_len": 42,
+   "counts": {
+    "reply": 2,
+    "like": 4,
+    "follow": 0,
+    "quote": 1,
+    "repost": 0
+   },
+   "caps_after": {
+    "reply": "5/20 (plan soft cap 8)",
+    "like": "9/30",
+    "follow": "0/10",
+    "quote": "1/3",
+    "repost": "0/3"
+   }
+  },
+  {
+   "ts": "2026-10-14T10:54:00+08:00",
+   "type": "catchup_check",
+   "routine": "0·掉线补跑",
+   "slot": null,
+   "text_chars": 426
+  },
+  {
+   "ts": "2026-10-14T11:57:00+08:00",
+   "type": "catchup_check",
+   "routine": "0·掉线补跑",
+   "slot": null,
+   "text_chars": 218
+  },
+  {
+   "ts": "2026-10-14T12:16:07+08:00",
+   "type": "reply",
+   "routine": "3·互动",
+   "slot": "12:10",
+   "note_len": 71,
+   "text_chars": 234,
+   "target_url": "url",
+   "our_url": "url"
+  },
+  {
+   "ts": "2026-10-14T12:17:13+08:00",
+   "type": "reply",
+   "routine": "3·互动",
+   "slot": "12:10",
+   "note_len": 104,
+   "text_chars": 106,
+   "target_url": "url",
+   "our_url": "url"
+  },
+  {
+   "ts": "2026-10-14T12:18:30+08:00",
+   "type": "like",
+   "routine": "3·互动",
+   "slot": "12:10",
+   "target_url": "url"
+  },
+  {
+   "ts": "2026-10-14T12:19:00+08:00",
+   "type": "like",
+   "routine": "3·互动",
+   "slot": "12:10",
+   "note_len": 47,
+   "target_url": "url"
+  },
+  {
+   "ts": "2026-10-14T12:19:30+08:00",
+   "type": "like",
+   "routine": "3·互动",
+   "slot": "12:10",
+   "target_url": "url"
+  },
+  {
+   "ts": "2026-10-14T12:20:00+08:00",
+   "type": "like",
+   "routine": "3·互动",
+   "slot": "12:10",
+   "target_url": "url"
+  },
+  {
+   "ts": "2026-10-14T12:20:30+08:00",
+   "type": "lead_scan",
+   "routine": "3·互动",
+   "slot": "12:10",
+   "text_chars": 185
+  },
+  {
+   "ts": "2026-10-14T12:20:30+08:00",
+   "type": "engagement_round",
+   "routine": "3·互动",
+   "slot": "12:10",
+   "note_len": 42,
+   "counts": {
+    "reply": 2,
+    "like": 4,
+    "follow": 0,
+    "quote": 0,
+    "repost": 0
+   },
+   "caps_after": {
+    "reply": "7/20 (plan soft cap 8)",
+    "like": "13/30",
+    "follow": "0/10",
+    "quote": "1/3",
+    "repost": "0/3"
+   }
+  },
+  {
+   "ts": "2026-10-14T12:54:00+08:00",
+   "type": "catchup_check",
+   "routine": "0·掉线补跑",
+   "slot": null,
+   "text_chars": 268
+  },
+  {
+   "ts": "2026-10-14T13:52:00+08:00",
+   "type": "catchup_check",
+   "routine": null,
+   "slot": null,
+   "note_len": 30,
+   "text_chars": 301
+  },
+  {
+   "ts": "2026-10-14T14:19:06+08:00",
+   "type": "reply",
+   "routine": "3·互动",
+   "slot": "14:10",
+   "note_len": 89,
+   "text_chars": 265,
+   "target_url": "url",
+   "our_url": "url"
+  },
+  {
+   "ts": "2026-10-14T14:19:40+08:00",
+   "type": "quote",
+   "routine": "3·互动",
+   "slot": "14:10",
+   "text_chars": 110,
+   "target_url": "url",
+   "our_url": "url",
+   "handle": "Gorden_Sun"
+  },
+  {
+   "ts": "2026-10-14T14:20:12+08:00",
+   "type": "like",
+   "routine": "3·互动",
+   "slot": "14:10",
+   "target_url": "url"
+  },
+  {
+   "ts": "2026-10-14T14:20:47+08:00",
+   "type": "like",
+   "routine": "3·互动",
+   "slot": "14:10",
+   "target_url": "url"
+  },
+  {
+   "ts": "2026-10-14T14:21:18+08:00",
+   "type": "like",
+   "routine": "3·互动",
+   "slot": "14:10",
+   "target_url": "url"
+  },
+  {
+   "ts": "2026-10-14T14:21:51+08:00",
+   "type": "like",
+   "routine": "3·互动",
+   "slot": "14:10",
+   "target_url": "url"
+  },
+  {
+   "ts": "2026-10-14T14:22:30+08:00",
+   "type": "lead_scan",
+   "routine": "3·互动",
+   "slot": "14:10",
+   "text_chars": 142
+  },
+  {
+   "ts": "2026-10-14T14:22:30+08:00",
+   "type": "engagement_round",
+   "routine": "3·互动",
+   "slot": "14:10",
+   "note_len": 58,
+   "counts": {
+    "reply": 1,
+    "like": 4,
+    "follow": 0,
+    "quote": 1,
+    "repost": 0
+   },
+   "caps_after": {
+    "reply": "8/20 (plan soft cap 8 reached)",
+    "like": "17/30",
+    "follow": "0/10",
+    "quote": "2/3",
+    "repost": "0/3"
+   }
+  },
+  {
+   "ts": "2026-10-14T14:52:00+08:00",
+   "type": "catchup_check",
+   "routine": "0·掉线补跑",
+   "slot": null,
+   "text_chars": 344
+  },
+  {
+   "ts": "2026-10-14T15:50:37+08:00",
+   "type": "catchup_check",
+   "routine": "0·掉线补跑",
+   "slot": null,
+   "note_len": 30,
+   "text_chars": 337
+  },
+  {
+   "ts": "2026-10-14T16:18:55+08:00",
+   "type": "like",
+   "routine": null,
+   "slot": "16:10",
+   "status": "ok"
+  },
+  {
+   "ts": "2026-10-14T16:18:55+08:00",
+   "type": "like",
+   "routine": null,
+   "slot": "16:10",
+   "status": "ok"
+  },
+  {
+   "ts": "2026-10-14T16:18:55+08:00",
+   "type": "like",
+   "routine": null,
+   "slot": "16:10",
+   "status": "ok"
+  },
+  {
+   "ts": "2026-10-14T16:18:55+08:00",
+   "type": "like",
+   "routine": null,
+   "slot": "16:10",
+   "status": "ok"
+  },
+  {
+   "ts": "2026-10-14T16:18:55+08:00",
+   "type": "like",
+   "routine": null,
+   "slot": "16:10",
+   "status": "ok"
+  },
+  {
+   "ts": "2026-10-14T16:18:55+08:00",
+   "type": "quote",
+   "routine": null,
+   "slot": "16:10",
+   "target_url": "url",
+   "our_url": "url",
+   "status": "ok",
+   "method": "twitter/post+url_fallback"
+  },
+  {
+   "ts": "2026-10-14T16:18:55+08:00",
+   "type": "lead_scan",
+   "routine": null,
+   "slot": "16:10",
+   "status": "ok"
+  },
+  {
+   "ts": "2026-10-14T16:18:55+08:00",
+   "type": "engagement_round",
+   "routine": null,
+   "slot": "16:10",
+   "status": "ok",
+   "caps_after": {
+    "reply": "8/20",
+    "like": "22/30",
+    "follow": "0/10",
+    "quote": "3/3",
+    "repost": "0/3"
+   }
+  },
+  {
+   "ts": "2026-10-14T16:52:00+08:00",
+   "type": "catchup_check",
+   "routine": "0·掉线补跑",
+   "slot": null,
+   "text_chars": 399
+  },
+  {
+   "ts": "2026-10-14T17:54:04+08:00",
+   "type": "catchup_check",
+   "routine": "0·掉线补跑",
+   "slot": null,
+   "text_chars": 387
+  },
+  {
+   "ts": "2026-10-14T18:16:00+08:00",
+   "type": "like",
+   "routine": null,
+   "slot": "18:10",
+   "note_len": 38,
+   "status": "ok"
+  },
+  {
+   "ts": "2026-10-14T18:16:30+08:00",
+   "type": "like",
+   "routine": null,
+   "slot": "18:10",
+   "note_len": 29,
+   "status": "ok"
+  },
+  {
+   "ts": "2026-10-14T18:17:00+08:00",
+   "type": "like",
+   "routine": null,
+   "slot": "18:10",
+   "note_len": 20,
+   "status": "ok"
+  },
+  {
+   "ts": "2026-10-14T18:17:30+08:00",
+   "type": "lead_scan",
+   "routine": null,
+   "slot": "18:10",
+   "status": "ok"
+  },
+  {
+   "ts": "2026-10-14T18:17:30+08:00",
+   "type": "engagement_round",
+   "routine": "3·互动",
+   "slot": "18:10",
+   "status": "ok",
+   "caps_after": {
+    "reply": "8/20 (soft cap 8)",
+    "like": "25/30",
+    "follow": "0/10",
+    "quote": "3/3",
+    "repost": "0/3"
+   }
+  },
+  {
+   "ts": "2026-10-14T18:56:30+08:00",
+   "type": "catchup_check",
+   "routine": "0·掉线补跑",
+   "slot": null,
+   "note_len": 30,
+   "text_chars": 451,
+   "counts": {
+    "replies": 8,
+    "likes": 25,
+    "follows": 0,
+    "quotes": 3,
+    "posts": 1,
+    "repo_ships": 0
+   }
+  }
+ ],
+ "bus": "our-x-agent-2026-10-14"
+}
